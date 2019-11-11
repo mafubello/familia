@@ -1,0 +1,136 @@
+/* This is my stylesheet do not tamper with anything */
+.card{
+    transition: all 0.7s;
+}
+
+/* pheyidamilola@gmail.com */
+.card-body p {
+margin-bottom: 0;
+}
+.card-body span{
+    text-decoration:underline;
+    color: red;
+}
+/* .card:hover{
+background:aquamarine;
+box-shadow: 5px 5px 10px lightblue;
+} */
+.card1{
+    background-color: blueviolet;
+    object-fit: contain;
+}
+.card2{
+    background-color: yellow;
+    object-fit: contain;
+}
+.card3{
+    background-color: orange;
+}
+.card4{
+    background-color: rgba(207, 155, 75, 0.479);
+}
+
+.card-img-top{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+.design{
+    color: indianred;
+    text-align: center;
+    font-size: 20px;
+}
+.table1{
+    background-color: purple;
+}
+.table1:hover{
+    background-color: darkgrey;
+}
+.table2{
+    background-color: aquamarine;
+}
+.table2:hover{
+    background-color: darkseagreen;
+}
+.table3{
+    background-color: cadetblue;
+}
+.table3:hover{
+    background-color: rgb(220, 221, 128);
+}
+.table4{
+    background-color: crimson;
+}
+.table4:hover{
+    background-color: fuchsia;
+}
+.nope{
+    text-align:center;
+}
+.nope2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: blueviolet;
+}
+.card .card-header{
+    padding: 0;
+    
+}
+.card{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-bottom: 30px;
+}
+.card,
+.card .card-header img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.card .card-header img{
+    width: 100%;
+    
+}
+.card-body{
+    text-align: center;
+}
+.card-body h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.card-body h3 a{
+    color:#000000;
+}
+.card-body p.position{
+    font-style: italic;
+    margin-bottom: 0;
+}
+.sidebar{
+    list-style: none;
+    padding-left: 0;
+}
+.sidebar li{
+    border: 1px solid green;
+    margin-bottom: 20px;
+    padding:15px;
+}
+.sidebar li:hover,
+.sidebar li:active{
+    border-color:black;
+    background-color: black;
+}
+.sidebar li a{
+    color: black;
+}
+.sidebar li:hover a{
+    color:green;
+}
+.carousel,
+.carousel-inner{
+    max-height: 700px;
+    height: 600px;
+}
+.carousel img{
+    width: 100%;
+}
